@@ -29,7 +29,7 @@ Este proyecto es un sistema de gestión de parqueo desarrollado con Django y Dja
 
 
 1. Clonar el repositorio
-git clone <...>
+git clone <https://github.com/renealvaroc-lang/parqueo_django.git>
 cd parqueo_django
 2. Crear entorno virtual
 python -m venv venv
@@ -48,6 +48,12 @@ pip install -r requirements.txt
 python manage.py migrate
 6. Ejecutar el servidor
 python manage.py runserver
+
+## Acceso al panel admin
+
+Para crear un usuario administrador ejecutar:
+
+python manage.py createsuperuser
 
 Luego abrir en el navegador:
 
